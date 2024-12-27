@@ -79,6 +79,32 @@ This lab builds on the previous one [here](https://github.com/vincentchachere/Ac
 
 <ins>A-Record Management</ins>:
 
+To view DNS records, run the command **`ipconfig /displaydns`**, which displays them in the console.
+
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/06646f25-0608-4032-b0e2-ceb3991284c8">
+
+<br>
+<br>
+<br>
+
+<ins>A-Record Management</ins>:
+
+To verify there are no DNS records for **mainframe**, output the results to a text file and search for "mainframe" to confirm it is absent from the local DNS cache.
+
+- Run the Command: `ipconfig /displaydns >test.txt` (*This command saves the DNS records to a text file that can be opened in Notepad.*)
+
+- Run the Command: `notepad test.txt` (*This command opens the specified text file in Notepad.*)
+
+- 
+
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/64578e00-4df8-4122-aac3-f3150604d6b3">
+
+<br>
+<br>
+<br>
+
+<ins>A-Record Management</ins>:
+
 - Nslookup: `mainframe` (*notice that it fails, because there's no DNS record.*)
 
 <img width="800" alt="isolated" src="">
