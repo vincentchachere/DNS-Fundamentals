@@ -45,7 +45,55 @@ This lab builds on the previous one [here](https://github.com/vincentchachere/Ac
 
 <summary>
 
-### Exercise 1: A-Record Management
+### 📂 Exercise 1: A-Record Management
+
+</summary>
+
+*Log into DC-1 as your domain admin account; **mydomain.com\jane_admin***
+
+*Additionally, log into Clinet-1 as an admin; **mydomain.com\jane_admin***
+
+- From Client-1 try to ping: `mainframe` (notice that it fails)
+
+<img width="800" alt="isolated" src="">
+
+<br>
+<br>
+<br>
+
+<ins>A-Record Management</ins>:
+
+- Nslookup: `mainframe` (*notice that it fails, because there's no DNS record.*)
+
+<img width="800" alt="isolated" src="">
+
+<br>
+<br>
+<br>
+
+<ins>A-Record Management</ins>:
+
+Create a **DNS A-record** on **DC-1** for **mainframe** and have it point to **DC-1’s Private IP address** (*10.0.0.4*)
+
+<img width="800" alt="isolated" src="">
+
+<br>
+<br>
+<br>
+
+<ins>A-Record Management</ins>:
+
+Return to **Client-1** and **ping** it to confirm functionality.
+
+<img width="800" alt="isolated" src="">
+
+</details>
+
+<details>
+
+<summary>
+
+### 📂 Exercise 2: Local DNS Cache Management
 
 </summary>
 
@@ -75,37 +123,7 @@ This lab builds on the previous one [here](https://github.com/vincentchachere/Ac
 
 <summary>
 
-### Exercise 2: Local DNS Cache Management
-
-</summary>
-
-<img width="800" alt="isolated" src="">
-
-<br>
-<br>
-<br>
-
-<img width="800" alt="isolated" src="">
-
-<br>
-<br>
-<br>
-
-<img width="800" alt="isolated" src="">
-
-<br>
-<br>
-<br>
-
-<img width="800" alt="isolated" src="">
-
-</details>
-
-<details>
-
-<summary>
-
-### Exercise 3: CNAME Record Configuration
+### 📂 Exercise 3: CNAME Record Configuration
 
 </summary>
 
