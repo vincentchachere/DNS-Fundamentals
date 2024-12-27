@@ -16,9 +16,27 @@
 </p>
 <br />
 
-## Lab Overview
+<h1 align="center">Lab Overview</h1>
 
 This lab builds on the previous one [here](https://github.com/vincentchachere/Active-Directory-Deployment-and-Configuration). This lab focuses on understanding and practicing DNS record management and behavior in a controlled environment. We will work with A-records, CNAME records, and local DNS cache management to observe how DNS changes affect network communication.
+
+<h2 align="center">DNS Resolution Process</h2>
+
+<ins>When a computer tries to interact with a hostname, it resolves it through the following steps</ins>:
+
+1. **Local DNS Cache**: The computer first checks its DNS cache stored in memory (fastest).
+2. **Hosts File**: If not found in the cache, it checks the local `hosts` file (faster).
+3. **DNS Server**: If unresolved, it queries the configured DNS server (slowest, usually provided by your ISP or manually configured).
+
+   - **Recursive Resolver**: The DNS server (resolver) checks its own cache.
+
+   - **Root Server**: If the resolver doesn’t have the answer, it queries a root server to locate the top-level domain (TLD) server (e.g., .com, .org).
+
+   - **TLD Server**: The root server directs the resolver to the authoritative TLD server for the domain.
+
+   - **Authoritative Name Server**: The TLD server directs the resolver to the domain's authoritative name server, which provides the IP address of the hostname.
+
+4. **Response and Caching**: The resolver sends the IP address back to the computer and caches the result for future requests.
 
 ## Environments and Technologies Used
 
@@ -49,13 +67,17 @@ This lab builds on the previous one [here](https://github.com/vincentchachere/Ac
 
 </summary>
 
+### 1. ) A-Record Management
+
 *Log into DC-1 as your domain admin account; **mydomain.com\jane_admin***
 
-*Additionally, log into Clinet-1 as an admin; **mydomain.com\jane_admin***
+*Additionally, log into Client-1 as an admin; **mydomain.com\jane_admin***
 
-- From Client-1 try to ping: `mainframe` (notice that it fails)
+- From Client-1 Open: `PowerShell`
 
-<img width="800" alt="isolated" src="">
+- Ping: `mainframe` (notice that it fails)
+
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/fccfc3e1-cd3e-4412-aaf0-6ee17efc42d2">
 
 <br>
 <br>
