@@ -91,11 +91,13 @@ To view DNS records, run the command **`ipconfig /displaydns`**, which displays 
 
 To verify there are no DNS records for **mainframe**, output the results to a text file and search for "mainframe" to confirm it is absent from the local DNS cache.
 
-- Run the Command: `ipconfig /displaydns >test.txt` (*This command saves the DNS records to a text file that can be opened in Notepad.*)
+- Run the Command: `ipconfig /displaydns > test.txt` (*This command saves the DNS records to a text file that can be opened in Notepad.*)
 
 - Run the Command: `notepad test.txt` (*This command opens the specified text file in Notepad.*)
 
-- 
+- Press: `Ctrl + F` (For Windows) and `Command + F` (For Mac) to open the "Find" window and search for the DNS Record "mainframe"
+
+*Since there's no A-Record for "mainframe," the search will return no results.*
 
 <img width="800" alt="isolated" src="https://github.com/user-attachments/assets/64578e00-4df8-4122-aac3-f3150604d6b3">
 
