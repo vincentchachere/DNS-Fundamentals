@@ -135,7 +135,7 @@ To practice, let's **ping elephant**. It will fail since it's not in the `hosts`
 
 <ins>A-Record Management</ins>:
 
-*Let's try to nslookup "mainframe." Then, in the next step, we'll create a DNS A-record on DC-1 for "mainframe" and have it point to DC-1's private IP address, in order to successfully resolve the domain name.*
+Let's try to nslookup "mainframe." Then, in the next step, we'll create a DNS A-record on DC-1 for "mainframe" and have it point to DC-1's private IP address, in order to successfully resolve the domain name.
 
 - Nslookup: `mainframe` (*notice that it fails, because there's no DNS record.*)
 
