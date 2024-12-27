@@ -123,9 +123,11 @@ I will now show you where the local host file is, so first open notepad **as an 
 
 <ins>A-Record Management</ins>:
 
-So to briefly practice let's try to **ping elephant**. Notice that will fail, since it's not in the hosts file. Now, if we...(to be continued)
+To practice, let's **ping elephant**. It will fail since it's not in the `hosts` file. After adding "elephant" to the loopback address (127.0.0.1) and saving, the ping will succeed.
 
-<img width="800" alt="isolated" src="">
+*You may to add you domain admin account (domain.com\jane_admin) to the **hosts file properties** > ****
+
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/7600031f-7e5e-47ce-a611-8a35e9d157b9">
 
 <br>
 <br>
