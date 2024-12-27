@@ -125,7 +125,7 @@ I will now show you where the local host file is, so first open notepad **as an 
 
 To practice, let's **ping elephant**. It will fail since it's not in the `hosts` file. After adding "elephant" to the loopback address (127.0.0.1) and saving, the ping will succeed.
 
-*You may to add you domain admin account (domain.com\jane_admin) to the **hosts file properties** > ****
+*You may need to add your domain admin account (`domain.com\jane_admin`) to the **hosts properties** > **Permissions for hosts** > **Add** > **Check Names** > **OK** to grant the necessary permissions and save the file.*
 
 <img width="800" alt="isolated" src="https://github.com/user-attachments/assets/7600031f-7e5e-47ce-a611-8a35e9d157b9">
 
@@ -135,9 +135,11 @@ To practice, let's **ping elephant**. It will fail since it's not in the `hosts`
 
 <ins>A-Record Management</ins>:
 
+*Let's try to nslookup "mainframe." Then, in the next step, we'll create a DNS A-record on DC-1 for "mainframe" and have it point to DC-1's private IP address, in order to successfully resolve the domain name.*
+
 - Nslookup: `mainframe` (*notice that it fails, because there's no DNS record.*)
 
-<img width="800" alt="isolated" src="">
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/eb41a84d-b7bb-4b0a-a791-5a26aa7dfbd0">
 
 <br>
 <br>
