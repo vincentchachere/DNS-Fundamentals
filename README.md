@@ -125,7 +125,7 @@ I will now show you where the local host file is, so first open notepad **as an 
 
 So to briefly practice let's try to **ping elephant**. Notice that will fail, since it's not in the hosts file. Now, if we...(to be continued)
 
-<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/3c3228b9-7934-457a-b7bb-e40d913454d6">
+<img width="800" alt="isolated" src="">
 
 <br>
 <br>
