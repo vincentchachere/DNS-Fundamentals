@@ -107,6 +107,32 @@ To verify there are no DNS records for **mainframe**, output the results to a te
 
 <ins>A-Record Management</ins>:
 
+I will now show you where the local host file is, so first open notepad **as an administrator**.
+
+- Go To: `This PC` > `Windows (C:) > `Windows` > `System32` > `drivers` > `etc`
+
+- Select: `hosts` (*this is the hosts file*) and **Open it with Notepad**
+
+*You will see it populate inside Notepad.*
+
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/aeaf6a94-7ab8-4916-b3c5-86fa3b706b13">
+
+<br>
+<br>
+<br>
+
+<ins>A-Record Management</ins>:
+
+So to briefly practice let's try to **ping elephant**. Notice that will fail, since it's not in the hosts file. Now, if we...(to be continued)
+
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/3c3228b9-7934-457a-b7bb-e40d913454d6">
+
+<br>
+<br>
+<br>
+
+<ins>A-Record Management</ins>:
+
 - Nslookup: `mainframe` (*notice that it fails, because there's no DNS record.*)
 
 <img width="800" alt="isolated" src="">
