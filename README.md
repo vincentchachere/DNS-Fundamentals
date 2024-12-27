@@ -8,17 +8,13 @@
 
 <br>
 
-<h1 align="center">DNS Fundamentals</h1> 
-<br>
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/b9f2f604-2619-48b3-ba71-c3e05ec1c1aa" height="50%" width="50%" alt="9"/><br />
-</p>
-<br />
-
-<h1 align="center">Lab Overview</h1>
+<h1 align="center">DNS Fundamentals - Lab Overview</h1>
 
 This lab builds on the previous one [here](https://github.com/vincentchachere/Active-Directory-Deployment-and-Configuration). This lab focuses on understanding and practicing DNS record management and behavior in a controlled environment. We will work with A-records, CNAME records, and local DNS cache management to observe how DNS changes affect network communication.
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/a17b7f35-f05e-4eb4-886e-a7f3940f31fd" height="50%" width="50%" alt="9"/><br />
+</p>
 
 <h2 align="center">DNS Resolution Process</h2>
 
@@ -66,8 +62,6 @@ This lab builds on the previous one [here](https://github.com/vincentchachere/Ac
 ### 📂 Exercise 1: A-Record Management
 
 </summary>
-
-### 1. ) A-Record Management
 
 *Log into DC-1 as your domain admin account; **mydomain.com\jane_admin***
 
