@@ -125,7 +125,7 @@ I will now show you where the local host file is, so first open notepad **as an 
 
 To practice, let's **ping elephant**. It will fail since it's not in the `hosts` file. After adding "elephant" to the loopback address (127.0.0.1) and saving, the ping will succeed.
 
-*You may need to add your domain admin account (`domain.com\jane_admin`) to the **hosts properties** > **Permissions for hosts** > **Add** > **Check Names** > **OK** to grant the necessary permissions and save the file.*
+*You may need to add your domain admin account (`domain.com\jane_admin`) to the **hosts properties** > **Advanced** > **Add** > **Add: Jane Doe (Domain Admin Account)** > **OK** to grant the necessary permissions and save the file.*
 
 <img width="800" alt="isolated" src="https://github.com/user-attachments/assets/da52b240-2359-4e87-914f-f64d1d900f50">
 
