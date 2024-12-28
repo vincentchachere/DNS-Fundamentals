@@ -1,4 +1,4 @@
-<br>
+![image](https://github.com/user-attachments/assets/0c92f887-a594-46ae-9dda-d44a7b40ae07)<br>
 
 <p align="center">
 <img width="700" src="https://github.com/user-attachments/assets/9b6b0a51-6411-4e01-96c5-1bb31e6fd986" alt="Microsoft Active Directory Logo"/>
@@ -219,7 +219,7 @@ Now, if we ping **mainframe**, it will still show DC-1's private IP address. In 
 
 <ins>Local DNS Cache Management</ins>:
 
-Once you've **opened PowerShell as an administrator** and flushed the Local DNS Cache (*run the comand: ipconfig /flushdns*), you can observe new IP address (8.8.8.8) assigned to **mainframe**, as well as the "elephant" domain created earlier.
+After opening **PowerShell as an administrator** and flushing the Local DNS Cache, you can observe the new IP address (8.8.8.8) assigned to **mainframe** and the previously created "elephant" domain. Running **nslookup** for **mainframe** will also show the updated IP address.
 
 <ins>The process the computer went through to achieve this was as follows</ins>:  
 
@@ -229,7 +229,7 @@ Once you've **opened PowerShell as an administrator** and flushed the Local DNS 
 
 *This entire DNS resolution process occurs within milliseconds.*
 
-<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/6bf4959e-eeb6-49f8-83a5-45757f1427dd">
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/6b1d7d4a-84fc-4571-b335-a07af4a60f17">
 
 </details>
 
