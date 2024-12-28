@@ -247,16 +247,22 @@ On **DC-1**, create a **CNAME record** to point the host **search** to **www.goo
 <br>
 <br>
 
+<h3 align="center">This Concludes the Fundamentals of DNS Resolutions Lab!</h3>
+
 <ins>Observing the CNAME Record</ins>
 
+Once back inside Client-1, **ping** and **nslookup** "search" to observe the results. Notice that the IP address for "search" resolves to the same IP as "www.google.com."
 
-
-<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/c2550b72-b40f-43af-8024-2bc0a4db89d4">
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/f3cd0ca0-ca20-4e3c-a1d4-21c7ef06788f">
 
 </details>
 
 <h2 align="center">Final Thoughts</h2>
 
+This lab covered fundamental DNS concepts, including creating and managing A-records, working with local DNS cache, and configuring CNAME records. You practiced troubleshooting DNS resolution, observed how changes propagate, and reinforced key skills for managing DNS in real-world environments.
 
+Next, we’ll build on this lab with the [Network File Shares and Permissions](https://github.com/vincentchachere/Network-File-Shares-and-Permissions) Lab.
+
+Thank you for following along with this project. Your time and effort in learning and implementing these concepts are greatly appreciated.
 
 ☎️ For any questions or just to connect you can reach me at: www.linkedin.com/in/vincentchachere
