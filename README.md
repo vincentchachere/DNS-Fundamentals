@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0c92f887-a594-46ae-9dda-d44a7b40ae07)<br>
+<br>
 
 <p align="center">
 <img width="700" src="https://github.com/user-attachments/assets/9b6b0a51-6411-4e01-96c5-1bb31e6fd986" alt="Microsoft Active Directory Logo"/>
@@ -205,9 +205,7 @@ For this part we will go back to **DC-1** and **change mainframe’s record addr
 
 <ins>Local DNS Cache Management</ins>:
 
-
-
-Now, if we ping **mainframe**, it will still show DC-1's private IP address. In the next step, we'll **open PowerShell as an Administrator** and **flush the DNS** to link the new IP address (8.8.8.8) with **mainframe** in the `hosts` file.  
+Now, if we ping **mainframe**, it will still show DC-1's private IP address. In the next step, we'll **open PowerShell as an Administrator** and **flush the DNS** to link the new IP address (8.8.8.8) with **mainframe** in the **host** file.  
 
 *The word "elephant," previously linked to Client-1's loopback address, is also present here.*
 
@@ -241,24 +239,24 @@ After opening **PowerShell as an administrator** and flushing the Local DNS Cach
 
 </summary>
 
-<img width="800" alt="isolated" src="">
+On **DC-1**, create a **CNAME record** to point the host **search** to **www.google.com**. Next, we'll attempt to ping the newly created "search" CNAME record and observe the results.
+
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/c51bf473-1e6b-4623-a7b0-f32d10bd1aa0">
 
 <br>
 <br>
 <br>
 
-<img width="800" alt="isolated" src="">
+<ins>Observing the CNAME Record</ins>
 
-<br>
-<br>
-<br>
 
-<img width="800" alt="isolated" src="">
 
-<br>
-<br>
-<br>
-
-<img width="800" alt="isolated" src="">
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/c2550b72-b40f-43af-8024-2bc0a4db89d4">
 
 </details>
+
+<h2 align="center">Final Thoughts</h2>
+
+
+
+☎️ For any questions or just to connect you can reach me at: www.linkedin.com/in/vincentchachere
