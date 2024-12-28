@@ -151,7 +151,7 @@ Create a **DNS A-record** on **DC-1** for **mainframe** and have it point to **D
 
 *Inside DC-1*
 
-- Click Start and Open ADUC then Select: `DNS`
+- Click Start and Exapnd Windows Administrative Tools then Select: `DNS`
 
 <img width="800" alt="isolated" src="https://github.com/user-attachments/assets/cf02dfbd-6c65-4769-a02f-392b8359a498">
 
@@ -205,7 +205,9 @@ For this part we will go back to **DC-1** and **change mainframe’s record addr
 
 <ins>Local DNS Cache Management</ins>:
 
-Now, if we ping **mainframe**, it will still show DC-1's private IP address. In the next step, we will flush the DNS to link the new IP address (8.8.8.8) with **mainframe** in the `hosts` file.  
+
+
+Now, if we ping **mainframe**, it will still show DC-1's private IP address. In the next step, we'll **open PowerShell as an Administrator** and **flush the DNS** to link the new IP address (8.8.8.8) with **mainframe** in the `hosts` file.  
 
 *The word "elephant," previously linked to Client-1's loopback address, is also present here.*
 
@@ -217,9 +219,9 @@ Now, if we ping **mainframe**, it will still show DC-1's private IP address. In 
 
 <ins>Local DNS Cache Management</ins>:
 
-Once the DNS is flushed, you can observe the "elephant" domain created earlier, as well as the new IP address (8.8.8.8) assigned to **mainframe**.
+Once you've **opened PowerShell as an administrator** and flushed the Local DNS Cache (*run the comand: ipconfig /flushdns*), you can observe new IP address (8.8.8.8) assigned to **mainframe**, as well as the "elephant" domain created earlier.
 
-<ins>This process was as follows</ins>:  
+<ins>The process the computer went through to achieve this was as follows</ins>:  
 
 1. The computer checked the **Local DNS Cache** (fastest), but since it was flushed, nothing was found.  
 2. It then checked the **Local Hosts File** (faster), but there was no entry for **mainframe**.  
