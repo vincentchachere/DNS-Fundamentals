@@ -203,9 +203,11 @@ For this part we will go back to **DC-1** and **change mainframe’s record addr
 <br>
 <br>
 
-Now, if we ping **mainframe**, it will still show DC-1's private IP address. To update it to the new IP address (8.8.8.8) and solidify the change within the hosts file, run the command **ipconfig /flushdns**.  
+<ins>Local DNS Cache Management</ins>:
 
-*Note that the word "elephant," previously linked to Client-1's loopback address, is also present here.*
+Now, if we ping **mainframe**, it will still show DC-1's private IP address. In the next step, we will flush the DNS to link the new IP address (8.8.8.8) with **mainframe** in the `hosts` file.  
+
+*The word "elephant," previously linked to Client-1's loopback address, is also present here.*
 
 <img width="800" alt="isolated" src="https://github.com/user-attachments/assets/254dd51b-48c7-43e1-a6d0-252bdd1e5c8d">
 
@@ -213,11 +215,19 @@ Now, if we ping **mainframe**, it will still show DC-1's private IP address. To 
 <br>
 <br>
 
-<img width="800" alt="isolated" src="">
+<ins>Local DNS Cache Management</ins>:
+
+
+
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/6bf4959e-eeb6-49f8-83a5-45757f1427dd">
 
 <br>
 <br>
 <br>
+
+<ins>Local DNS Cache Management</ins>:
+
+
 
 <img width="800" alt="isolated" src="">
 
