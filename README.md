@@ -195,7 +195,9 @@ Return to **Client-1** and ping **mainframe** to confirm functionality. Then, tr
 
 </summary>
 
-<img width="800" alt="isolated" src="">
+For this part we will go back to **DC-1** and **change mainframe’s record address** to **8.8.8.8**
+
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/e9914f50-dd11-42ba-8b5a-6793bea43c9a">
 
 <br>
 <br>
