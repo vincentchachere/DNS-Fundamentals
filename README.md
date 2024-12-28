@@ -149,7 +149,11 @@ Let's try to nslookup "mainframe." Then, in the next step, we'll create a DNS A-
 
 Create a **DNS A-record** on **DC-1** for **mainframe** and have it point to **DC-1’s Private IP address** (*10.0.0.4*)
 
-<img width="800" alt="isolated" src="">
+*Inside DC-1*
+
+- Click Start and Open ADUC then Select: `DNS`
+
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/cf02dfbd-6c65-4769-a02f-392b8359a498">
 
 <br>
 <br>
@@ -157,9 +161,29 @@ Create a **DNS A-record** on **DC-1** for **mainframe** and have it point to **D
 
 <ins>A-Record Management</ins>:
 
-Return to **Client-1** and **ping** it to confirm functionality.
+*Inside DNS Manager expand **DC-1** and **Forward Lookup Zones** then select **mydomain.com**. Next, right click an empty space and select **New Host (A or AAAA)**.*
 
-<img width="800" alt="isolated" src="">
+- New Host Name: `mainframe`
+
+- IP Address: `DC-1's Private IP Address` (*Example: 10.0.0.4*)
+
+- Select: `Add Host`
+
+*Notice mainframe immediately populates within the mydomain.com folder.*
+
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/f339a9e2-d445-43ab-ba30-6e8081ebbfe4">
+
+<br>
+<br>
+<br>
+
+<ins>A-Record Management</ins>:
+
+Return to **Client-1** and ping **mainframe** to confirm functionality. Then, try an **nslookup** for **mainframe**.  
+
+*With the DNS A-record now created on DC-1, both the ping and nslookup will succeed.*
+
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/b5c51ea9-4207-4d26-b8f0-a1a6dd0668ec">
 
 </details>
 
