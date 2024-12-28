@@ -217,7 +217,15 @@ Now, if we ping **mainframe**, it will still show DC-1's private IP address. In 
 
 <ins>Local DNS Cache Management</ins>:
 
+Once the DNS is flushed, you can observe the "elephant" domain created earlier, as well as the new IP address (8.8.8.8) assigned to **mainframe**.
 
+<ins>This process was as follows</ins>:  
+
+1. The computer checked the **Local DNS Cache** (fastest), but since it was flushed, nothing was found.  
+2. It then checked the **Local Hosts File** (faster), but there was no entry for **mainframe**.  
+3. Finally, the computer queried the **DNS Server** (slowest) and retrieved the new IP address for **mainframe**.  
+
+*This entire DNS resolution process occurs within milliseconds.*
 
 <img width="800" alt="isolated" src="https://github.com/user-attachments/assets/6bf4959e-eeb6-49f8-83a5-45757f1427dd">
 
