@@ -195,7 +195,7 @@ Return to **Client-1** and ping **mainframe** to confirm functionality. Then, tr
 
 </summary>
 
-For this part we will go back to **DC-1** and **change mainframe’s record address** to **8.8.8.8**
+For this part we will go back to **DC-1** and **change mainframe’s record address** to **8.8.8.8**.
 
 <img width="800" alt="isolated" src="https://github.com/user-attachments/assets/e9914f50-dd11-42ba-8b5a-6793bea43c9a">
 
@@ -203,7 +203,11 @@ For this part we will go back to **DC-1** and **change mainframe’s record addr
 <br>
 <br>
 
-<img width="800" alt="isolated" src="">
+Now, if we ping **mainframe**, it will still show DC-1's private IP address. To update it to the new IP address (8.8.8.8) and solidify the change within the hosts file, run the command **ipconfig /flushdns**.  
+
+*Note that the word "elephant," previously linked to Client-1's loopback address, is also present here.*
+
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/254dd51b-48c7-43e1-a6d0-252bdd1e5c8d">
 
 <br>
 <br>
