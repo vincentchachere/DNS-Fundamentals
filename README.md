@@ -127,7 +127,7 @@ To practice, let's **ping elephant**. It will fail since it's not in the `hosts`
 
 *You may need to add your domain admin account (`domain.com\jane_admin`) to the **hosts properties** > **Permissions for hosts** > **Add** > **Check Names** > **OK** to grant the necessary permissions and save the file.*
 
-<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/7600031f-7e5e-47ce-a611-8a35e9d157b9">
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/da52b240-2359-4e87-914f-f64d1d900f50">
 
 <br>
 <br>
@@ -228,16 +228,6 @@ Once the DNS is flushed, you can observe the "elephant" domain created earlier, 
 *This entire DNS resolution process occurs within milliseconds.*
 
 <img width="800" alt="isolated" src="https://github.com/user-attachments/assets/6bf4959e-eeb6-49f8-83a5-45757f1427dd">
-
-<br>
-<br>
-<br>
-
-<ins>Local DNS Cache Management</ins>:
-
-
-
-<img width="800" alt="isolated" src="">
 
 </details>
 
