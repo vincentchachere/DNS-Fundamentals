@@ -10,7 +10,7 @@
 
 <h1 align="center">DNS Fundamentals - Lab Overview</h1>
 
-This lab builds on the previous one [here](https://github.com/vincentchachere/Active-Directory-Deployment-and-Configuration). This lab focuses on understanding and practicing DNS record management and behavior in a controlled environment. We will work with A-records, CNAME records, and local DNS cache management to observe how DNS changes affect network communication.
+Building on the previous [Active Directory Deployment and Configuration](https://github.com/vincentchachere/Active-Directory-Deployment-and-Configuration) lab, this lab focuses on understanding and practicing DNS record management. We'll explore A-records, CNAME records, and local DNS cache management to demonstrate how DNS changes influence network communication.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/a17b7f35-f05e-4eb4-886e-a7f3940f31fd" height="50%" width="50%" alt="9"/><br />
@@ -18,7 +18,7 @@ This lab builds on the previous one [here](https://github.com/vincentchachere/Ac
 
 <h2 align="center">DNS Resolution Process</h2>
 
-<ins>When a computer tries to interact with a hostname, it resolves it through the following steps</ins>:
+<ins>When a computer tries to interact with a hostname, it resolves it through the following steps (*explaining the image above*)</ins>:
 
 1. **Local DNS Cache**: The computer first checks its DNS cache stored in memory (fastest).
 2. **Hosts File**: If not found in the cache, it checks the local `hosts` file (faster).
@@ -259,10 +259,10 @@ Once back inside Client-1, **ping** and **nslookup** "search" to observe the res
 
 <h2 align="center">Final Thoughts</h2>
 
-This lab covered fundamental DNS concepts, including creating and managing A-records, working with local DNS cache, and configuring CNAME records. You practiced troubleshooting DNS resolution, observed how changes propagate, and reinforced key skills for managing DNS in real-world environments.
+This lab covered fundamental DNS concepts, including creating and managing A-records, working with local DNS cache, and configuring CNAME records. We practiced troubleshooting DNS resolution, observed how changes propagate, and reinforced key skills for managing DNS in real-world environments.
 
 Next, we’ll build on this lab with the [Network File Shares and Permissions](https://github.com/vincentchachere/Network-File-Shares-and-Permissions) Lab.
 
 Thank you for following along with this project. Your time and effort in learning and implementing these concepts are greatly appreciated.
 
-☎️ For any questions or just to connect you can reach me at: www.linkedin.com/in/vincentchachere
+☎️ For questions or to connect you can reach me at: www.linkedin.com/in/vincentchachere
