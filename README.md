@@ -261,7 +261,7 @@ Once back inside Client-1, **ping** and **nslookup** "search" to observe the res
 
 This lab covered fundamental DNS concepts, including creating and managing A-records, working with local DNS cache, and configuring CNAME records. We practiced troubleshooting DNS resolution, observed how changes propagate, and reinforced key skills for managing DNS in real-world environments.
 
-Next, we’ll build on this lab with the [Network File Shares and Permissions](https://github.com/vincentchachere/Network-File-Shares-and-Permissions) Lab.
+Next, we’ll build on this lab with the [Network File Shares and Permissions](https://github.com/vincentchachere/Network-File-Shares-and-Permissions) lab.
 
 Thank you for following along with this project. Your time and effort in learning and implementing these concepts are greatly appreciated.
 
