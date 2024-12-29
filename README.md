@@ -13,7 +13,7 @@
 Building on the previous [Active Directory Deployment and Configuration](https://github.com/vincentchachere/Active-Directory-Deployment-and-Configuration) lab, this lab focuses on understanding and practicing DNS record management. We'll explore A-records, CNAME records, and local DNS cache management to demonstrate how DNS changes influence network communication.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/a17b7f35-f05e-4eb4-886e-a7f3940f31fd" height="50%" width="50%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/75b66a42-6744-4727-809c-11f0401160b4" height="50%" width="50%" alt="9"/><br />
 </p>
 
 <h2 align="center">DNS Resolution Process</h2>
