@@ -8,7 +8,7 @@
 
 <br>
 
-<h1 align="center">DNS Fundamentals</h1>
+<h1 align="center">DNS Resolution</h1>
 
 Building on the previous [Active Directory Deployment and Configuration](https://github.com/vincentchachere/Active-Directory-Deployment-and-Configuration) lab, this lab focuses on understanding and practicing DNS record management. We'll explore A-records, CNAME records, and local DNS cache management to demonstrate how DNS changes influence network communication.
 
