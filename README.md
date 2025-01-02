@@ -10,7 +10,7 @@
 
 <h1 align="center">DNS Resolution</h1>
 
-Building on the previous [Active Directory Deployment and Configuration](https://github.com/vincentchachere/Active-Directory-Deployment-and-Configuration) lab, this lab focuses on understanding and practicing DNS record management. We'll explore A-records, CNAME records, and local DNS cache management to demonstrate how DNS changes influence network communication.
+Building on the previous [Active Directory Deployment and Configuration](https://github.com/vincentchachere/Active-Directory-Deployment-and-Configuration) lab, this lab provides hands-on experience in DNS record management, where participants will configure and manage A-records and CNAME records. It also covers local DNS cache management to demonstrate how DNS changes affect network communication and troubleshooting. Through this lab, users will gain a deeper understanding of DNS functionality and its impact on the resolution of domain names and network connectivity.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/75b66a42-6744-4727-809c-11f0401160b4" height="50%" width="50%" alt="9"/><br />
