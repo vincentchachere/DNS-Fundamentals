@@ -47,7 +47,7 @@ Building on the previous [Active Directory Deployment and Configuration](https:/
 - Windows Server 2022
 - Windows 10 (21H2)
 
-## High-Level Group Policy and Account Managing Steps
+## High-Level DNS Resolution Steps
 
 - A-Record Management
 - Local DNS Cache Management
